@@ -23,7 +23,7 @@ while True:
         model='gemini-3.5-flash-lite',
         contents=prompt,
         config=GenerateContentConfig(
-            temperature=0
+            temperature=0,      
         )
     )
 
